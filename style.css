@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+
+.background {
+  width: 1000px;
+  height: 1500px;
+  background-color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 25vw;
+}
+
+.ship {
+  width: 30px;
+  height: 60px;
+  background-color: red;
+  position: absolute;
+  bottom: 50px;
+  left: 50vw;
+}
+
+.enemy {
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-left: 700px;
+}
+
+.bullet {
+  background-color: blue;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  bottom: 110px;
+  left: 50.5vw;
+}
+
+/* .ground {
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    width: 100vw;
+    background-color: red;
+} */
